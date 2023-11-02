@@ -1,0 +1,1490 @@
+/* GENERAL */
+@media screen and (max-width: 1280px) {
+
+  .main_club,
+  .main_plantel,
+  .main_futbol,
+  .main_deportivo,
+  .main_socios,
+  .main_marketing,
+  .main_canticos,
+  .main_asociate,
+  .main_pagina_videos,
+  .main_pagina_galeria {
+    margin: 70px auto 50px;
+  }
+
+  .main_club h1,
+  .main_plantel h1,
+  .main_futbol h1,
+  .main_deportivo h1,
+  .main_socios h1,
+  .main_marketing h1,
+  .main_canticos h1,
+  .main_asociate h1,
+  .main_pagina_videos h1,
+  .main_pagina_galeria h1 {
+    font-size: 70px;
+  }
+
+  .main_plantel h2,
+  .main_futbol h2,
+  .main_deportivo h2,
+  .main_socios h2,
+  .main_marketing h2,
+  .main_canticos h2,
+  .main_asociate h2,
+  .main_pagina_videos h2,
+  .main_pagina_galeria h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .main_club,
+  .main_plantel,
+  .main_futbol,
+  .main_deportivo,
+  .main_socios,
+  .main_marketing,
+  .main_canticos,
+  .main_asociate,
+  .main_pagina_videos,
+  .main_pagina_galeria {
+    margin: 70px auto 30px;
+    width: 100%;
+  }
+
+  .main_club h1,
+  .main_plantel h1,
+  .main_futbol h1,
+  .main_deportivo h1,
+  .main_socios h1,
+  .main_marketing h1,
+  .main_canticos h1,
+  .main_asociate h1,
+  .main_pagina_videos h1,
+  .main_pagina_galeria h1 {
+    font-size: 50px;
+  }
+
+  .main_plantel h2,
+  .main_futbol h2,
+  .main_deportivo h2,
+  .main_socios h2,
+  .main_marketing h2,
+  .main_canticos h2,
+  .main_asociate h2,
+  .main_pagina_videos h2,
+  .main_pagina_galeria h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 380px) {
+
+  .main_club,
+  .main_plantel,
+  .main_futbol,
+  .main_deportivo,
+  .main_socios,
+  .main_marketing,
+  .main_canticos,
+  .main_asociate,
+  .main_pagina_videos,
+  .main_pagina_galeria {
+    margin: 70px auto 0px;
+  }
+
+  .main_club h1,
+  .main_plantel h1,
+  .main_futbol h1,
+  .main_deportivo h1,
+  .main_socios h1,
+  .main_marketing h1,
+  .main_canticos h1,
+  .main_asociate h1,
+  .main_pagina_videos h1,
+  .main_pagina_galeria h1 {
+    font-size: 40px;
+  }
+}
+
+/* INDEX */
+@media screen and (max-width: 1280px) {
+  .main_seccion_superior {
+    margin-top: -25px;
+    grid-template-columns: 1fr;
+  }
+
+  .main_superior_izquierda {
+    order: 2;
+  }
+
+  .main_icono_img_anterior:hover {
+    background: #2ecc7000;
+    color: rgba(255, 255, 255, 0.888);
+  }
+
+  .main_icono_img_anterior:active {
+    background: #2ecc7098;
+    color: rgb(255, 255, 255);
+  }
+
+  .main_icono_img_siguiente:hover {
+    background: #e74d3c00;
+    color: rgba(255, 255, 255, 0.888);
+  }
+
+  .main_icono_img_siguiente:active {
+    background: #e74d3c93;
+    color: rgb(255, 255, 255);
+  }
+
+  .main_superior_derecha {
+    order: 1;
+    margin-left: 20px;
+  }
+
+  .main_videos {
+    margin: 30px;
+  }
+
+  .main_videos a {
+    margin: auto;
+    width: max-content;
+  }
+
+  .main_inferior a {
+    font-size: 100px;
+  }
+
+  .main_inferior a:hover {
+    font-size: 95px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .main_superior_derecha,
+  .main_superior_izquierda,
+  .main_inferior {
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: 0px;
+  }
+
+  .main_superior_izquierda {
+    border-top: 2px solid white;
+    height: 714px;
+  }
+
+  .main_inferior {
+    border-top: 2px solid white;
+    margin-bottom: -45px;
+  }
+
+  .main_superior_izquierda article {
+    border-radius: 0px;
+  }
+
+  .main_icono_img_siguiente,
+  .main_icono_img_anterior {
+    border-radius: 0px;
+    font-size: 40px;
+    padding: 357px 16px 316px 16px;
+  }
+
+  .main_superior_derecha h2 {
+    font-size: 30px;
+  }
+
+  .main_partido {
+    justify-content: space-around;
+  }
+
+  .main_local h3,
+  .main_visita h3 {
+    font-size: 9px;
+  }
+
+  .main_local img,
+  .main_visita img {
+    height: 100px;
+  }
+
+  .main_resultado,
+  .main_vs {
+    font-size: 25px;
+  }
+
+  .main_videos a {
+    font-size: 40px;
+  }
+
+  .main_videos {
+    margin-top: 50px;
+  }
+
+  .main_video_principal {
+    height: 278px;
+    width: 90%;
+  }
+
+  .main_inferior a {
+    font-size: 60px;
+  }
+
+  .main_inferior a:hover {
+    font-size: 55px;
+  }
+
+  .main_letra_verde {
+    -webkit-text-stroke: 2px #77f592;
+  }
+
+  .main_letra_blanca {
+    -webkit-text-stroke: 2px rgb(219, 219, 219);
+  }
+
+  .main_letra_roja {
+    -webkit-text-stroke: 2px #e46262;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .main_superior_derecha {
+    height: 250px;
+  }
+
+  .main_superior_derecha h2 {
+    font-size: 20px;
+  }
+
+  .main_superior_derecha h4 {
+    font-size: 10px !important;
+  }
+
+  .main_superior_derecha:hover {
+    box-shadow: none;
+  }
+
+  .main_local h3,
+  .main_visita h3 {
+    font-size: 5px;
+  }
+
+  .main_local img,
+  .main_visita img {
+    height: 70px;
+  }
+
+  .main_resultado,
+  .main_vs {
+    font-size: 22px;
+  }
+
+  .main_videos a {
+    display: none;
+  }
+
+  .main_video_principal {
+    display: none;
+  }
+
+  .main_superior_izquierda {
+    display: none;
+  }
+
+  .main_inferior {
+    display: none;
+  }
+
+  .main_videos_xxs {
+    background-color: #e46262;
+    background-image: url(../images/Imagen_Main_1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid white;
+    box-shadow: 0px 0px 190px rgba(0, 0, 0, 0.904) inset;
+    display: block;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+  }
+
+  .main_videos_xxs a {
+    color: transparent;
+    cursor: pointer;
+    font-family: RobotoBold;
+    font-size: 40px;
+    text-decoration: none;
+    transition: color 0.4s;
+    -webkit-text-stroke: 1px white;
+  }
+
+  .main_videos_xxs a:hover {
+    color: white;
+  }
+
+  .main_galeria_xxs {
+    background-color: #e46262;
+    background-image: url(../images/Imagen_Main_3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid white;
+    box-shadow: 0px 0px 190px rgba(0, 0, 0, 0.904) inset;
+    display: block;
+    height: 250px;
+    line-height: 250px;
+    margin-bottom: -70px;
+    text-align: center;
+  }
+
+  .main_galeria_xxs a {
+    color: transparent;
+    cursor: pointer;
+    font-family: RobotoBold;
+    font-size: 40px;
+    text-decoration: none;
+    transition: color 0.4s;
+    -webkit-text-stroke: 1px white;
+  }
+
+  .main_galeria_xxs a:hover {
+    color: white;
+  }
+}
+
+/* CLUB */
+@media screen and (max-width: 1440px) {
+  .main_club_datos_flex {
+    display: block;
+  }
+
+  .main_club_imagenes_datos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .main_club_imagenes_datos img {
+    animation-delay: .3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: animacion_imagenes_datos_responsivo;
+    box-shadow: none;
+    height: auto;
+    opacity: 0;
+    transform: translateX(0px);
+    width: 31%;
+  }
+
+  .main_club_imagenes_datos img:hover {
+    box-shadow: none;
+  }
+
+  .main_club_historia_imagen1,
+  .main_club_historia_imagen2 {
+    width: 400px;
+  }
+
+  @keyframes animacion_imagenes_datos_responsivo {
+    0% {
+      transform: translateX(0px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main_club h2 {
+    font-size: 24px;
+  }
+
+  .main_club h3 {
+    font-size: 18px;
+  }
+
+  .main_club_historia_imagen1,
+  .main_club_historia_imagen2 {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_club h2 {
+    font-size: 22px;
+  }
+
+  .main_club h3 {
+    font-size: 17px;
+  }
+
+  .main_club_imagenes_datos {
+    padding-right: 2px;
+  }
+
+  .main_club_imagenes_datos img {
+    max-width: 100%;
+  }
+
+  .main_club_historia_contenedor1,
+  .main_club_historia_contenedor2 {
+    width: 100%;
+  }
+
+  .main_club_historia_imagen1,
+  .main_club_historia_imagen2 {
+    width: 225px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .main_club h2 {
+    font-size: 16px;
+  }
+
+  .main_club h3 {
+    font-size: 12px;
+  }
+
+  .main_club_historia_parrafo {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .main_club_imagenes_datos,
+  .main_club_historia_imagen1,
+  .main_club_historia_imagen2 {
+    display: none;
+  }
+
+  .main_club_imagen_ocultar {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 550px) and (max-width: 750px) {
+  .main_club_seccion_superior {
+    margin-top: -50px;
+  }
+
+  .main_club {
+    margin-top: 60px;
+  }
+}
+
+/* PLANTEL */
+@media screen and (max-width: 1440px) {
+  .main_plantel_imagen {
+    height: 381.5px;
+    width: 240px;
+  }
+
+  .main_plantel_arqueros,
+  .main_plantel_defensores,
+  .main_plantel_mediocampistas,
+  .main_plantel_delanteros {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .main_plantel_nombre {
+    font-size: 16px;
+  }
+
+  .main_plantel_apellido {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main_plantel h2 {
+    font-size: 20px;
+  }
+
+  .main_plantel_arqueros,
+  .main_plantel_defensores,
+  .main_plantel_mediocampistas,
+  .main_plantel_delanteros {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_plantel h2 {
+    text-align: center;
+  }
+
+  .main_plantel_imagen {
+    height: 281.5px;
+    width: 160px;
+  }
+
+  .main_plantel_nombre {
+    font-size: 8px;
+  }
+
+  .main_plantel_apellido {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+
+  .main_plantel_arqueros,
+  .main_plantel_defensores,
+  .main_plantel_mediocampistas,
+  .main_plantel_delanteros {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* FUTBOL */
+@media screen and (max-width: 1440px) {
+  .nav_fixture_izquierda p {
+    font-size: 16px;
+  }
+
+  .contenedor_izquierda_main_fixture h4 {
+    font-size: 23px;
+  }
+
+  .contenedor_tablero_fixture span {
+    font-size: 35px;
+  }
+
+  .contenedor_nombreEquipo_tablero_fixture p {
+    font-size: 25px;
+  }
+
+  .contenedor_fecha_fixture p {
+    font-size: 18px;
+  }
+
+  .contenedor_derecha_main_fixture {
+    right: 14%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .contenedor_principal_main_fixture {
+    grid-template-columns: 100%;
+  }
+
+  .contenedor_principal_main_fixture2_mostrar {
+    width: 100%;
+  }
+
+  .nav_fixture_izquierda p {
+    font-size: 16px;
+  }
+
+  .contenedor_izquierda_main_fixture h4 {
+    font-size: 18px;
+  }
+
+  .contenedor_tablero_fixture img {
+    width: 60px;
+    height: auto;
+  }
+
+  .contenedor_tablero_fixture img:nth-child(1) {
+    margin-right: 5px;
+  }
+
+  .contenedor_tablero_fixture img:nth-child(2) {
+    margin-left: 20px;
+  }
+
+  .contenedor_tablero_fixture span {
+    font-size: 30px;
+  }
+
+  .contenedor_nombreEquipo_tablero_fixture p {
+    font-size: 18px;
+  }
+
+  .contenedor_fecha_fixture p {
+    font-size: 18px;
+  }
+
+  .contenedor_derecha_main_fixture {
+    display: none;
+  }
+
+  .contenedor_izquierda_main_calendario {
+    width: 100%;
+  }
+
+  #contenedor_principal_main_calendario_mostrar {
+    grid-template-columns: 100%;
+  }
+
+  .nav_fixture_derecha {
+    display: none;
+  }
+
+  .nav_fixture_derecha h4 {
+    font-size: 28px;
+  }
+
+  .nav_fixture_derecha li a {
+    font-size: 15px;
+  }
+
+  .ul_jornadas {
+    grid-template-columns: repeat(6, 1fr) 0.5fr;
+  }
+
+  .ul_jornadas li {
+    padding: 10px 6px;
+    font-size: 12.8px;
+  }
+
+  .jornada7_mostrar {
+    display: none;
+  }
+
+  .jornada7_ocultar {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav_fixture_izquierda p {
+    font-size: 12.5px;
+  }
+
+  .contenedor_izquierda_main_fixture h4 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .contenedor_tablero_fixture img {
+    width: 50px;
+    height: auto;
+  }
+
+  .contenedor_tablero_fixture img:nth-child(1) {
+    margin-right: 0px;
+  }
+
+  .contenedor_tablero_fixture img:nth-child(2) {
+    margin-left: 0px;
+  }
+
+  .contenedor_tablero_fixture span {
+    margin-right: 7px;
+    font-size: 22px;
+  }
+
+  .contenedor_nombreEquipo_tablero_fixture p {
+    font-size: 13px;
+  }
+
+  .contenedor_fecha_fixture p {
+    font-size: 18px;
+  }
+
+  .ul_jornadas {
+    grid-template-columns: repeat(5, 1fr) 1fr;
+  }
+
+  .ul_jornadas li {
+    padding: 8px 4px;
+    font-size: 8.8px;
+  }
+
+  #contenedor_listas_desplegables_mostrar {
+    width: 16.470%;
+  }
+
+  .contenedor_listas_desplegables_mostrar {
+    width: 16.470%;
+  }
+
+  .tabla_calendario {
+    font-size: 12px;
+  }
+
+  .jornada6_mostrar {
+    display: none;
+  }
+
+  .jornada6_ocultar {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  .nav_fixture_izquierda p {
+    padding: 5px;
+    font-size: 10.2px;
+  }
+
+  .contenedor_izquierda_main_fixture h4 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .contenedor_tablero_fixture img {
+    width: 60px;
+    height: auto;
+  }
+
+  .contenedor_tablero_fixture img:nth-child(1) {
+    margin-right: 0px;
+  }
+
+  .contenedor_tablero_fixture img:nth-child(2) {
+    margin-left: 0px;
+  }
+
+  .contenedor_tablero_fixture span {
+    margin-right: 7px;
+    font-size: 18px;
+
+  }
+
+  .contenedor_nombreEquipo_tablero_fixture {
+    justify-content: center;
+  }
+
+  .contenedor_nombreEquipo_tablero_fixture p {
+    font-size: 16.1px;
+    display: none;
+  }
+
+  .contenedor_fecha_fixture p {
+    margin-top: 25px;
+    font-size: 15px;
+  }
+
+  .ul_jornadas li {
+    padding: 8px 1px;
+    font-size: 7px;
+  }
+
+  .tabla_calendario {
+    font-size: 9px;
+  }
+
+  .tabla_calendario img {
+    width: 25px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .main_futbol_ranking_tabla_grid span {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main_futbol h2 {
+    font-size: 20px;
+  }
+
+  .main_futbol_contenedor_principal_calendario {
+    grid-template-columns: 100%;
+  }
+
+  .main_futbol_contenedor_derecha_calendario {
+    display: none;
+  }
+
+  .main_futbol_ranking_tabla_grid span {
+    font-size: 12px;
+  }
+
+  .main_futbol_tabla_equipos {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_futbol h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .main_futbol_estadisticas {
+    gap: 0px;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .main_futbol_estadisticas h3 {
+    font-size: 16px;
+  }
+
+  .main_futbol_estadisticas h4 {
+    font-size: 8px;
+  }
+
+  .main_futbol_ranking_tabla_grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .main_futbol_ranking_tabla_grid span {
+    font-size: 7.16px;
+  }
+
+  .main_futbol_ranking_jugador_grid {
+    font-size: 12px;
+  }
+
+  .main_futbol_tabla table {
+    width: 100%;
+  }
+
+  .main_futbol_tabla_principal {
+    font-size: 12px;
+  }
+
+  .main_futbol_ranking_jugador_primero,
+  .main_futbol_ranking_jugador_impar,
+  .main_futbol_ranking_jugador_par {
+    grid-template-columns: 0.5fr 2fr 1fr 1.5fr;
+  }
+
+  .main_futbol_tabla_ocultar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .main_futbol h2 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .main_futbol_estadisticas {
+    gap: 0px;
+    grid-template-columns: repeat(6, 16.5%);
+  }
+
+  .main_futbol_estadisticas h3 {
+    font-size: 12px;
+  }
+
+  .contenedor_torneo {
+    margin-top: 20px;
+  }
+
+  .main_futbol_tabla table,
+  td {
+    font-size: 10px;
+  }
+}
+
+/* DEPORTIVO */
+@media screen and (max-width: 1440px) {
+  .main_deportivo_contenedor_grid {
+    grid-template-columns: repeat(3, 32.9%);
+  }
+
+  .main_deportivo_contenido {
+    height: 395px;
+  }
+
+  .noticia h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main_deportivo_contenedor_grid {
+    grid-template-columns: repeat(2, 49.8%);
+  }
+
+  .main_deportivo_contenido {
+    height: 238px;
+  }
+
+  .main_deportivo_escudo {
+    height: 70px;
+    width: 70px;
+  }
+
+  .main_deportivo_escudo img {
+    top: 5px;
+    width: 60px;
+  }
+
+  .noticia h3 {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_deportivo {
+    height: 3300px;
+  }
+
+  .main_deportivo_contenedor_grid {
+    gap: 10px;
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  .main_deportivo_contenido {
+    height: 350px;
+  }
+
+  .noticia h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .main_deportivo {
+    height: 3280px;
+  }
+
+  .noticia h3 {
+    font-size: 16px;
+  }
+}
+
+/* MARKETING */
+@media screen and (max-width: 1440px) {
+  .main_marketing_contenido {
+    height: 600px;
+  }
+
+  .almacen h3,
+  .lns h3 {
+    font-size: 26px;
+  }
+
+  .almacen p,
+  .lns p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main_marketing_contenido {
+    height: 550px;
+  }
+
+  .almacen h3,
+  .lns h3 {
+    font-size: 22px;
+  }
+
+  .almacen p,
+  .lns p {
+    font-size: 14px;
+  }
+
+  .contenedor_formulario {
+    width: 100%;
+  }
+
+  .contenedor_seccion_formulario_marketing textarea {
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_marketing_contenedor {
+    display: block;
+  }
+
+  .main_marketing_contenido {
+    width: 100%;
+    height: 550px;
+  }
+
+  .almacen {
+    margin-bottom: 10px;
+  }
+
+  .main_marketing_contenido img {
+    height: 350px;
+  }
+
+  .almacen h3,
+  .lns h3 {
+    font-size: 18px;
+  }
+
+  .almacen p,
+  .lns p {
+    font-size: 12px;
+  }
+
+  .contenedor_formulario {
+    width: 100%;
+  }
+
+  .contenedor_seccion_formulario_marketing textarea {
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .main_marketing_contenido {
+    height: 450px;
+  }
+
+  .main_marketing_contenido img {
+    height: 250px;
+  }
+
+  .almacen h3,
+  .lns h3 {
+    font-size: 13px;
+  }
+
+  .almacen p,
+  .lns p {
+    font-size: 10px;
+  }
+
+  .contenedor_formulario {
+    margin-top: 7px;
+  }
+
+  .contenedor_seccion_formulario_marketing:nth-last-of-type(2) {
+    margin-top: 15px;
+  }
+
+
+  .contenedor_boton_formulario_marketing {
+    margin-top: 15px;
+  }
+
+  .contenedor_seccion_formulario_marketing label {
+    font-size: 15px;
+    padding-top: 5px;
+    font-weight: bold;
+  }
+
+  .contenedor_seccion_formulario_marketing input {
+    font-size: 16px;
+    height: 35px;
+    width: 100%;
+  }
+
+  .contenedor_seccion_formulario_marketing textarea {
+    font-size: 16px;
+    height: 80px;
+    min-height: 80px;
+  }
+
+  .contenedor_boton_formulario_marketing button {
+    padding: 10px 14px;
+  }
+}
+
+/* SOCIOS */
+@media screen and (max-width: 1440px) {
+  .contenedor_principal_socios {
+    display: grid;
+    font-family: OpenSansRegular;
+    grid-template-columns: 65% 30% 5%;
+  }
+
+  .contenedor_derecha_informacion button span:nth-last-child(2) {
+    padding-right: 11px;
+    transition: padding .3s;
+  }
+
+  .contenedor_derecha_informacion button:hover span:nth-last-child(2) {
+    padding-right: 6px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .contenedor_principal_socios {
+    display: grid;
+    font-family: OpenSansRegular;
+    grid-template-columns: 100%;
+  }
+
+  .contenedor_derecha_informacion {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .contenedor_izquierda_informacion a {
+    font-size: 15px;
+  }
+
+  .contenedor_izquierda_informacion div h3 {
+    font-size: 18px;
+  }
+
+  .contenedor_izquierda_informacion ul {
+    margin-top: 10px;
+    padding-left: 25px;
+  }
+
+  .main_socios_tabla_edad {
+    font-size: 16px;
+  }
+
+  .main_socios_tabla_estado {
+    font-size: 8px;
+  }
+}
+
+/*# ASOCIATE FORMULARIO #*/
+@media screen and (max-width: 1440px) {
+  .contenedor_icono_ojo_formulario_clave {
+    margin-left: 89%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main_asociate {
+    width: 90%;
+  }
+
+  .contenedor_icono_ojo_formulario_clave {
+    margin-left: 87%;
+  }
+
+  .formulario_label {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_asociate {
+    width: 100%;
+  }
+
+  .contenedor_formulario_asociate {
+    display: grid;
+    font-family: sans-serif;
+    gap: 5px;
+  }
+
+  .formulario_input {
+    font-size: 15px;
+  }
+
+  .formulario_label {
+    font-size: 16px;
+  }
+
+  .formulario_input:focus+.formulario_label,
+  .formulario_input:valid+.formulario_label {
+    font-size: 14px;
+  }
+
+  .formulario_socios_1 {
+
+    grid-column: 1 / 5;
+  }
+
+  .formulario_socios_2 {
+    font-size: 1px;
+    grid-column: 1 / 5;
+  }
+
+  .formulario_socios_3 {
+    grid-column: 1 / 3;
+  }
+
+  .formulario_socios_4 {
+    grid-column: 3 / 5;
+  }
+
+  .formulario_socios_5 {
+    grid-column: 1 / 3;
+  }
+
+  .formulario_socios_6 {
+    grid-column: 3 / 5;
+  }
+
+  .formulario_socios_7 {
+    grid-column: 1 / 5;
+  }
+
+  .formulario_socios_8 {
+    grid-column: 1 / 5;
+  }
+
+  .formulario_socios_9 {
+    grid-column: 1 / 3;
+  }
+
+  .formulario_socios_10 {
+    grid-column: 3 / 5;
+  }
+
+  .formulario_socios_11 {
+    grid-column: 1 / 3;
+  }
+
+  .formulario_socios_12 {
+    grid-column: 3 / 5;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .contenedor_icono_ojo_formulario_clave {
+    margin-left: 84%;
+  }
+
+  .formulario_label {
+    font-size: 15px;
+  }
+
+  .formulario_socios_3 label {
+    font-size: 12px;
+  }
+
+  .formulario_socios_10 label {
+    font-size: 12px;
+    margin-top: -25px;
+  }
+}
+
+/*ACCESO FORMULARIO*/
+@media screen and (max-width: 768px) {
+  .main_socios_acceso {
+    width: 90%;
+    margin-bottom: 90px;
+  }
+
+  .contenedor_formulario_acceso_socio {
+    width: 100%;
+  }
+
+  .formulario_acceso_socios {
+    width: 100%;
+  }
+
+  .formulario_socios_acceso_1 {
+    width: 90%;
+  }
+
+  .icono_sobre_acceso_socios {
+    font-size: 22px;
+    margin: auto;
+    margin-top: 0%;
+    margin-right: 20px;
+  }
+
+  .icono_huella_acceso_socios {
+    font-size: 22px;
+    margin: auto;
+    margin-top: 0%;
+    margin-right: 20px;
+  }
+
+  .formulario_socios_acceso_2 {
+    width: 90%;
+  }
+
+  .formulario_input_acceso::-webkit-input-placeholder {
+    font-size: 12px;
+    color: #848484b8;
+  }
+
+  .contenedor_btn_acceso_socios {
+    width: 100%;
+  }
+
+  .contenedor_btn_acceso_socios a {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .main_socios_acceso {
+    width: 100%;
+  }
+
+  .icono_sobre_acceso_socios {
+    font-size: 22px;
+    margin: auto;
+    margin-top: -10%;
+    margin-right: 25px;
+  }
+
+  .icono_huella_acceso_socios {
+    font-size: 22px;
+    margin: auto;
+    margin-top: 10%;
+    margin-right: 25px;
+  }
+
+  .contenedor_btn_acceso_socios a {
+    font-size: 15px;
+  }
+}
+
+/* MODO OSCURO */
+@media screen and (max-width: 1280px) {
+  .boton_modo_oscuro {
+    width: 45px;
+    height: 20px;
+    top: 12px;
+    left: 4px;
+  }
+
+  .check_dark {
+    width: 20px;
+    height: 20px;
+    right: 0px;
+  }
+
+  .check_light {
+    width: 20px;
+    height: 20px;
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .boton_modo_oscuro {
+    width: 45px;
+    height: 20px;
+    top: 10px;
+    left: calc(100% - 70px);
+  }
+
+  .check_dark {
+    width: 20px;
+    height: 20px;
+    right: 0px;
+  }
+
+  .check_light {
+    width: 20px;
+    height: 20px;
+    left: 0px;
+  }
+}
+
+/* PERFIL */
+@media screen and (max-width: 1280px) {
+  .main_perfil_contenedor {
+    display: block;
+    margin-top: 110px;
+  }
+
+  .main_perfil_info,
+  .main_perfil_carnet {
+    position: static;
+    width: 100%;
+  }
+
+  .main_perfil_info {
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+  }
+
+  .main_perfil_carnet {
+    height: 400px;
+    position: static;
+  }
+
+  .main_perfil_diseno_carnet {
+    width: 550px;
+    height: 300px;
+    border-radius: 12px;
+    left: calc(50% - 273px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_perfil_contenedor {
+    width: 100%;
+    margin-bottom: 130px;
+  }
+
+  .main_perfil_carnet {
+    width: 100%;
+  }
+
+  .main_perfil_diseno_carnet {
+    width: 381px;
+    height: 250px;
+    border-radius: 12px;
+    left: calc(50% - 190.5px);
+  }
+
+  .main_perfil_diseno_carnet img {
+    top: 20%;
+  }
+
+  .main_perfil_nombre_apellido {
+    margin-right: 30px;
+  }
+
+  .main_perfil_linea_verde {
+    height: 250px;
+    left: 66%;
+  }
+
+  .main_perfil_linea_roja {
+    height: 250px;
+    left: 83%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .main_perfil_contenedor {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .main_perfil_datos {
+    width: 100%;
+  }
+
+  .main_perfil_diseno_carnet {
+    width: 280px;
+    height: 200px;
+    border-radius: 12px;
+    left: calc(50% - 140px);
+  }
+
+  .main_perfil_diseno_carnet img {
+    top: 20%;
+  }
+
+  .main_perfil_nombre_socio {
+    font-size: 12px;
+  }
+
+  .main_perfil_tipo_socio {
+    font-size: 12px;
+  }
+
+  .main_perfil_linea_verde {
+    width: 30px;
+    height: 200px;
+    left: 68%;
+  }
+
+  .main_perfil_linea_roja {
+    width: 30px;
+    height: 200px;
+    left: 83%;
+  }
+}

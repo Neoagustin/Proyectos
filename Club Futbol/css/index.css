@@ -1,0 +1,94 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+@import url(./responsive_header.css);
+@import url(./responsive_main.css);
+@import url(./responsive_footer.css);
+
+@import url(../fontawesome/css/all.min.css);
+
+
+@import url(./sweet_alert.css);
+
+@font-face {
+    font-family: Graduate;
+    src: url(../fonts/Graduate-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: RiftDemi;
+    src: url(../fonts/Rift_Demi.otf);
+}
+
+@font-face {
+    font-family: OpenSansRegular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    padding-bottom: 135px;
+    position: relative;
+}
+
+.ocultar {
+    visibility: hidden;
+}
+
+.ancla {
+    color: rgba(255, 255, 255, 0);
+    font-size: 90px;
+    user-select: none;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #28b463;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #d83b29;
+}
+
+/* # RESPONSIVE # */
+
+@media screen and (max-width: 380px) {
+    .contenedor_ancla {
+        margin-bottom: 80px;
+    }
+
+    .ancla {
+        font-size: 1px;
+    }
+}

@@ -1,0 +1,472 @@
+body {
+  background-color: #212F3D;
+}
+
+header {
+  background-color: #212F3D;
+}
+
+.header_menu_horizontal>li>span {
+  color: white;
+}
+
+.header_menu_horizontal>li>span:hover {
+  background-color: black;
+}
+
+.header_menu_horizontal .header_verde:hover .header_menu_vertical,
+.header_menu_horizontal .header_rojo:hover .header_menu_vertical {
+  background-color: black;
+}
+
+.header_menu_vertical li:hover {
+  background-color: #1b1f22;
+}
+
+.header_rojo:nth-last-child(1) {
+  border-right: 1px solid white;
+}
+
+.contenedor_btn_socios_header button:nth-child(1) {
+  background-color: #1D8348;
+  border: 1px solid #1D8348;
+  color: white;
+}
+
+.contenedor_btn_socios_header button:nth-child(1):hover {
+  background-color: #145A32;
+  border: 1px solid #145A32;
+}
+
+.contenedor_btn_socios_header button:nth-child(2) {
+  background-color: #943126;
+  border: 1px solid #943126;
+  color: white;
+}
+
+.contenedor_btn_socios_header button:nth-child(2):hover {
+  background-color: #78281F;
+  border: 1px solid #78281F;
+}
+
+@media screen and (max-width: 1280px) {
+  .contenedor_btn_socios_header button:nth-child(1) {
+    border: 1px solid #1D8348;
+    color: #1D8348;
+    background-color: #212F3D;
+  }
+
+  .contenedor_btn_socios_header button:nth-child(2) {
+    background-color: #212F3D;
+    border: 1px solid #943126;
+    color: #943126;
+  }
+}
+
+#header_responsive {
+  background-color: #212f3de7;
+}
+
+.header_contenedor_links a {
+  color: white;
+}
+
+.header_icono_menu_mostrar {
+  color: white;
+}
+
+#header_icono_cruz_mostrar {
+  color: white;
+}
+
+.btn_inicio_usuario {
+  background-color: #1b1f2200;
+
+}
+
+.btn_inicio_usuario i {
+  color: white !important;
+}
+
+.main_superior_izquierda,
+.main_superior_derecha {
+  border: 3px solid black;
+}
+
+.main_club h1,
+.main_plantel h1,
+.main_futbol h1,
+.main_deportivo h1,
+.main_socios h1,
+.main_marketing h1,
+.main_canticos h1,
+.main_asociate h1,
+.main_socios_acceso h1,
+.main_pagina_videos h1,
+.main_pagina_galeria h1 {
+  color: white;
+}
+
+.main_plantel h2,
+.main_futbol h2,
+.main_deportivo h2,
+.main_socios h2,
+.main_marketing h2,
+.main_canticos h2,
+.main_asociate h2,
+.main_socios_acceso h2,
+.main_pagina_videos h2,
+.main_pagina_galeria h2 {
+  color: #1D8348;
+}
+
+.main_letra_verde {
+  -webkit-text-stroke: 3px #229954;
+}
+
+.main_letra_blanca {
+  -webkit-text-stroke: 3px rgb(182, 182, 182);
+}
+
+.main_letra_roja {
+  -webkit-text-stroke: 3px #943126;
+}
+
+.main_club h2 {
+  color: white;
+}
+
+.main_club p {
+  color: white;
+}
+
+.main_plantel_nombre {
+  background-color: #943126;
+}
+
+.boton_fixture_encender,
+.boton_fixture_encender2 {
+  background-color: #1D8348;
+}
+
+#boton_fixture_apagar,
+#boton_fixture_apagar2 {
+  color: #1D8348;
+  background-color: #212F3D;
+  border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+.boton_calendario_apagar,
+.boton_calendario_apagar2 {
+  color: #943126;
+  border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+#boton_calendario_encender,
+#boton_calendario_encender2 {
+  background-color: #943126;
+}
+
+.contenedor_izquierda_main_fixture h4 {
+  color: #1D8348;
+}
+
+.contenedor_nombreEquipo_tablero_fixture p {
+  color: white;
+}
+
+.tabla_calendario {
+  background-color: black;
+  color: white;
+}
+
+.ul_jornadas li {
+  background-color: #1b1f22;
+  color: #1D8348;
+}
+
+.ul_jornadas li:hover {
+  background-color: #145A32;
+  color: white;
+}
+
+#boton_lista_desplegable {
+  background-color: #1D8348;
+}
+
+#boton_lista_desplegable:hover {
+  background-color: #145A32;
+}
+
+#jornada_seleccionada {
+  background-color: #1D8348;
+}
+
+#jornada_seleccionada:hover {
+  background-color: #145A32;
+}
+
+.main_futbol_estadisticas h3 {
+  color: #943126;
+}
+
+.main_futbol_estadisticas h4 {
+  color: white;
+}
+
+.main_futbol_ranking_tabla_grid .goles_contenedor {
+  background-color: #943126;
+  color: white;
+}
+
+.main_futbol_ranking_tabla_grid span {
+  background-color: #E6B0AA;
+  color: #943126;
+}
+
+.main_futbol_ranking_tabla_grid span:hover {
+  background-color: #78281F;
+  color: white;
+}
+
+#contenedor_goles_tarjetas_fondo_mostrar {
+  background-color: #943126;
+  color: white;
+}
+
+#contenedor_goles_tarjetas_fondo_ocultar {
+  background-color: #E6B0AA;
+  color: #943126;
+}
+
+#contenedor_goles_tarjetas_fondo_ocultar:hover {
+  background-color: #78281F;
+  color: white;
+}
+
+.main_futbol_ranking_jugador_primero {
+  background-color: #943126;
+}
+
+.main_futbol_ranking_jugador_par {
+  background-color: #E6B0AA;
+}
+
+.main_futbol_ranking_jugador_impar {
+  background-color: #F2D7D5;
+}
+
+.main_futbol_tabla_principal {
+  background-color: #943126;
+}
+
+.main_futbol_tabla_equipos {
+  color: white;
+}
+
+.cfdp {
+  color: #943126;
+}
+
+.main_futbol_titulos_campeonatos {
+  color: white;
+}
+
+.nav_fixture_derecha {
+  background-color: #1b1f22;
+}
+
+.contenedor_derecha_informacion_futbol {
+  background-color: #1b1f22;
+}
+
+.contenedor_derecha_informacion_futbol h4 {
+  color: white;
+}
+
+.contenedor_derecha_informacion_futbol button {
+  background-color: #1D8348;
+}
+
+.contenedor_derecha_informacion_futbol button:hover {
+  color: #1D8348;
+}
+
+.contenedor_derecha_informacion_futbol button::after {
+  content: "";
+  background: black;
+}
+
+.main_deportivo_contenido:hover {
+  box-shadow: 0px -200px 400px #78281F inset;
+}
+
+.contenedor_izquierda_informacion ul li {
+  color: white;
+}
+
+.contenedor_izquierda_informacion ul li::marker {
+  color: #1D8348;
+}
+
+.contenedor_izquierda_informacion div h3 {
+  color: white;
+}
+
+.contenedor_izquierda_informacion a {
+  color: #1D8348;
+}
+
+.main_socios_tabla_titulo,
+.main_socios_tabla_pago {
+  background-color: #943126;
+}
+
+.main_socios_tabla_edad,
+.main_socios_tabla_precio {
+  color: #943126;
+  background-color: #E6B0AA;
+}
+
+.contenedor_izquierda_informacion p {
+  color: white;
+}
+
+.contenedor_derecha_informacion {
+  background-color: #1b1f22;
+}
+
+.contenedor_derecha_informacion h4 {
+  color: white;
+}
+
+.contenedor_derecha_informacion button {
+  background-color: #1D8348;
+}
+
+.contenedor_derecha_informacion button:hover {
+  color: #1D8348;
+}
+
+.contenedor_derecha_informacion button::after {
+  content: "";
+  background: black;
+}
+
+.titulo_asociate {
+  color: white;
+}
+
+.formulario_label {
+  color: rgb(187, 187, 187);
+}
+
+.formulario_input {
+  color: rgb(145, 145, 145);
+}
+
+.formulario_input:focus {
+  border-color: #1b1f22;
+}
+
+.formulario_input:focus+.formulario_label,
+.formulario_input:valid+.formulario_label {
+  color: rgb(187, 187, 187);
+}
+
+.icono_ojo_cerrado_formulario_confirmClave {
+  color: rgb(187, 187, 187);
+}
+
+.btn_formulario_asociate {
+  background-color: #1D8348;
+}
+
+.btn_formulario_asociate:hover {
+  background-color: #145A32;
+}
+
+.fa-envelope,
+.icono_huella_acceso_socios {
+  color: rgb(145, 145, 145);
+}
+
+.formulario_input_acceso:focus+.formulario_label_acceso,
+.formulario_input_acceso:valid+.formulario_label_acceso {
+  color: rgb(187, 187, 187)
+}
+
+.formulario_input_acceso {
+  color: rgb(145, 145, 145);
+}
+
+.formulario_input_acceso:focus {
+  border-color: #1b1f22;
+}
+
+.contenedor_btn_acceso_socios input {
+  background-color: #1D8348;
+}
+
+.contenedor_btn_acceso_socios input:hover {
+  background-color: #145A32;
+}
+
+.contenedor_btn_acceso_socios a {
+  color: #229954;
+}
+
+.main_marketing_contenido {
+  border-color: #943126;
+}
+
+.almacen h3,
+.lns h3 {
+  color: #943126;
+}
+
+.almacen p,
+.lns p {
+  color: white;
+}
+
+.contenedor_formulario {
+  background-color: #1D8348;
+}
+
+.contenedor_boton_formulario_marketing button::after {
+  content: "";
+  background: black;
+  color: #1D8348;
+}
+
+.main_canticos_parrafo {
+  color: white;
+}
+
+.main_pagina_videos_contenido video {
+  border: 5px solid #212F3D;
+}
+
+.main_perfil_info {
+  color: white;
+}
+
+.main_perfil_datos button {
+  background-color: #1D8348;
+  box-shadow: 0 0 10px white;
+}
+
+.main_perfil_datos button:hover {
+  background-color: #145A32;
+  color: white;
+}
+
+.main_perfil_diseno_carnet {
+  box-shadow: 0 0 20px grey;
+  background-color: white;
+}
+
+footer {
+  background-color: black;
+}

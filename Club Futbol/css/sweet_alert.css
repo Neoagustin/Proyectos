@@ -1,0 +1,13 @@
+.swal2-title {
+  font-family: sans-serif;
+}
+
+.swal2-popup {
+  font-family: sans-serif !important;
+  text-align: center !important;
+}
+
+.swal2-confirmButton{
+  border: none;
+  outline: none;
+}
