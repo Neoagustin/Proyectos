@@ -1,4 +1,4 @@
-# Elegancia Casual
+# Elegancia Casual (Finalizado el 25/10/2023)
 ENLACE: https://elengancia-casual.000webhostapp.com/templates/pagina.php 
 
 ![Tienda online 1](https://github.com/Anconita/Proyectos/assets/99112245/2b90fbce-0b9f-4542-90da-65a7c1e834bd)
