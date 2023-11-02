@@ -1,0 +1,205 @@
+.body-pagina {
+  background-color: #fbfbfb;
+}
+
+.seccion-presentacion {
+  background: linear-gradient(to bottom, #1B4F72, #34495E);
+  color: white;
+  text-align: center;
+  padding: 150px 0;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.seccion-presentacion h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.seccion-presentacion p {
+  font-size: 24px;
+  opacity: 0.8;
+  font-weight: 300;
+}
+
+.main-inicio {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-inicio h3 {
+  font-size: 28px;
+  margin-top: 30px;
+  color: #FF5733;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.seccion-filtros-productos {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.seccion-filtros-productos ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.seccion-filtros-productos li {
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s, border-bottom 0.3s;
+  user-select: none;
+}
+
+.seccion-filtros-productos li:nth-child(1) {
+  cursor: default;
+}
+
+.seccion-filtros-productos li:nth-last-child(-n+3):hover {
+  color: rgb(173, 173, 173);
+}
+
+.seccion-filtros-productos li.active {
+  color: #1e87f0;
+  border-bottom: 2px solid #1e87f0;
+}
+
+.seccion-filtros-productos li.active:hover {
+  color: #1460ac;
+  border-bottom: 2px solid #0e457b;
+}
+
+.seccion-filtros-productos p {
+  margin: 0;
+  padding: 0;
+}
+
+.seccion-filtros-productos li.active p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #1e87f0;
+  margin-top: 0px;
+}
+
+.seccion-masVendido,
+.seccion-ofertas,
+.seccion-nuevosModelos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 20px 0;
+}
+
+.contenedor-producto{
+  text-decoration: none;
+}
+
+.seccion-masVendido .contenedor-producto,
+.seccion-ofertas .contenedor-producto,
+.seccion-nuevosModelos .contenedor-producto {
+  position: relative;
+  width: calc(25% - 20px);
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transform: scale(.95);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.contenedor-producto:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.contenedor-producto:active {
+  transform: scale(1.02);
+}
+
+.contenedor-producto img {
+  border-radius: 8px;
+  flex-grow: 1;
+  height: 325px;
+  max-height: 100%;
+  margin: auto;
+  max-width: 100%;
+}
+
+.contenedor-producto h4 {
+  font-size: 24px;
+  color: #E67E22;
+  margin-top: 12px;
+}
+
+.contenedor-producto p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.contenedor-producto .precio {
+  font-size: 18px;
+  color: #FF5733;
+  margin-top: 8px;
+}
+
+.seccion-masVendido .contenedor-producto.oferta,
+.seccion-ofertas .contenedor-producto.oferta,
+.seccion-nuevosModelos .contenedor-producto.oferta {
+  background-color: white;
+  color: white;
+}
+
+.seccion-masVendido .contenedor-producto.oferta h4,
+.seccion-ofertas .contenedor-producto.oferta h4,
+.seccion-nuevosModelos .contenedor-producto.oferta h4 {
+  font-size: 20px;
+  color: #E67E22;
+}
+
+.seccion-masVendido .contenedor-producto.oferta .precio-anterior,
+.seccion-ofertas .contenedor-producto.oferta .precio-anterior,
+.seccion-nuevosModelos .contenedor-producto.oferta .precio-anterior{
+  font-size: 16px;
+  color: rgb(67, 67, 67);
+  text-decoration: line-through;
+  margin-top: 4px;
+}
+
+.seccion-masVendido .contenedor-producto.oferta .descuento,
+.seccion-ofertas .contenedor-producto.oferta .descuento,
+.seccion-masVendido .contenedor-producto.oferta .descuento {
+  font-size: 16px;
+  color: white;
+  background-color: #E67E22;
+  padding: 2px 6px;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.seccion-masVendido .contenedor-producto.oferta .precio-descuento,
+.seccion-ofertas .contenedor-producto.oferta .precio-descuento,
+.seccion-masVendido .contenedor-producto.oferta .precio-descuento  {
+  font-size: 24px;
+  color: #E67E22;
+  margin-top: 4px;
+}

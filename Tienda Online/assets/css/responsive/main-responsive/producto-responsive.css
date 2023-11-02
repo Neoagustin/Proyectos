@@ -1,0 +1,313 @@
+@media screen and (max-width: 1024px) {
+  .main-producto {
+    padding: 10px;
+  }
+
+  .descripcion-superior-prducto {
+    font-size: 14px;
+  }
+
+  .seccion-galeria-producto {
+    flex-direction: column;
+    margin-bottom: 4em;
+  }
+
+  .contenedor-izquierda-galeria-producto ul {
+    display: none;
+  }
+
+  .contenedor-imagenes-galeria-producto {
+    display: block;
+    gap: 0px;
+    width: 100%;
+  }
+
+  .contenedor-imagenes-miniaturas {
+    display: none;
+  }
+
+  .contenedor-imagen-principal-producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-imagen-principal-producto img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .contenedor-derecha-galeria-producto {
+    justify-content: center;
+  }
+
+  .contenedor-tarjeta-agregarCarrito {
+    width: 100%;
+    margin: auto;
+    border: none;
+  }
+
+  .contenedor-select-producto select {
+    font-size: 16px;
+    font-weight: 500;
+    height: 50px;
+  }
+
+  .btn-agregarCarrito {
+    font-size: 17px;
+  }
+
+  .contenedor-producto {
+    padding: 15px;
+  }
+
+  .contenedor-producto img {
+    max-width: 100%;
+    max-height: 220px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-producto {
+    padding: 15px 5px;
+  }
+
+  .contenedor-imagen-principal-producto img {
+    max-height: 450px;
+  }
+
+  .contenedor-tarjeta-agregarCarrito p:nth-child(1) {
+    font-size: 19px;
+  }
+
+  .contenedor-tarjeta-agregarCarrito p:nth-child(2) {
+    font-size: 12px;
+  }
+
+  .contenedor-tarjeta-agregarCarrito p:nth-child(3) {
+    font-size: 32px;
+  }
+
+
+  .contenedor-caracteristica-producto label {
+    font-size: 15px;
+  }
+
+  .contenedor-select-producto select {
+    font-size: 15px;
+    font-weight: 500;
+    height: 45px;
+  }
+
+  .btn-agregarCarrito {
+    margin-top: 15px;
+    font-size: 17px;
+  }
+
+  /*ESPECIFICACIONES*/
+  .seccion-especificaciones-producto {
+    padding: 20px 10px;
+  }
+
+  .seccion-especificaciones-producto h3 {
+    font-size: 25px;
+  }
+
+  .contenedor-iconosDescripcion-producto div {
+    align-items: center;
+  }
+
+  .contenedor-iconosDescripcion-producto div i {
+    font-size: 15px;
+  }
+
+  .contenedor-iconosDescripcion-producto div p {
+    font-size: 15px;
+  }
+
+  /*SECCION DESCRIPCION*/
+  .seccion-descripcion-producto {
+    padding: 20px 10px;
+  }
+
+  .seccion-descripcion-producto h3 {
+    font-size: 25px;
+  }
+
+  .seccion-descripcion-producto pre {
+    font-size: 16px;
+  }
+
+  /*SECCION OTROS PRODUCTOS*/
+  .seccion-otrosProductos-producto {
+    padding: 20px 0px;
+  }
+
+  .seccion-otrosProductos-producto h3 {
+    font-size: 25px;
+    padding-left: 10px;
+  }
+
+  .contenedor-otrosProductos-producto {
+    gap: 10px;
+  }
+
+  .contenedor-producto {
+    padding: 10px;
+    flex: 0 0 calc(50% - 20px);
+  }
+
+
+  .contenedor-producto.oferta .descuento {
+    font-size: 17px;
+  }
+
+  .contenedor-producto.oferta .precio-descuento {}
+}
+
+@media screen and (max-width: 440px) {
+  .contenedor-imagen-principal-producto img {
+    max-height: 380px;
+  }
+
+  .contenedor-derecha-galeria-producto {
+    min-width: 1px;
+  }
+
+  .contenedor-tarjeta-agregarCarrito {
+    min-width: 1px;
+  }
+
+
+  /*SECCION OTROS PRODUCTOS*/
+  .seccion-otrosProductos-producto {
+    padding: 20px 0px;
+  }
+
+  .seccion-otrosProductos-producto h3 {
+    font-size: 25px;
+    padding-left: 10px;
+  }
+
+  .contenedor-otrosProductos-producto {
+    gap: 10px;
+  }
+
+  .contenedor-producto {
+    padding: 10px;
+    flex: 0 0 calc(50% - 20px);
+  }
+
+  .contenedor-producto h4 {
+    font-size: 22px;
+  }
+
+  .contenedor-producto p {
+    font-size: 14px;
+  }
+
+  .contenedor-producto.oferta {
+    font-size: 22px;
+  }
+
+  .contenedor-producto.oferta h4 {}
+
+  .contenedor-producto.oferta .precio-anterior {}
+
+  .contenedor-producto.oferta .descuento {
+    font-size: 15px;
+  }
+
+  .contenedor-producto.oferta .precio-descuento {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .contenedor-imagen-principal-producto img {
+    max-height: 350px;
+    min-height: 250px;
+    width: auto;
+    min-width: 150px;
+  }
+
+  .descripcion-superior-prducto {
+    font-size: 13px;
+  }
+
+  .contenedor-tarjeta-agregarCarrito p:nth-child(1) {
+    font-size: 17px;
+  }
+
+  .contenedor-tarjeta-agregarCarrito p:nth-child(2) {
+    font-size: 10px;
+  }
+
+  .contenedor-tarjeta-agregarCarrito p:nth-child(3) {
+    font-size: 29px;
+  }
+
+  .contenedor-caracteristica-producto label {
+    font-size: 13px;
+  }
+
+  .contenedor-select-producto select {
+    font-size: 13px;
+  }
+
+  .btn-agregarCarrito {
+    height: 35px;
+    font-size: 15px;
+  }
+
+  .seccion-especificaciones-producto h3 {
+    font-size: 23px;
+  }
+
+  .contenedor-iconosDescripcion-producto div i {
+    font-size: 13px;
+  }
+
+  .contenedor-iconosDescripcion-producto div p {
+    font-size: 13px;
+  }
+
+  .seccion-descripcion-producto h3 {
+    font-size: 23px;
+  }
+
+  .seccion-descripcion-producto pre {
+    font-size: 14px;
+  }
+
+  /*SECCION OTROS PRODUCTOS*/
+  .seccion-otrosProductos-producto h3 {
+    font-size: 23px;
+  }
+
+  .contenedor-producto h4 {
+    font-size: 20px;
+  }
+
+  .contenedor-producto p {
+    font-size: 13px;
+  }
+
+  .contenedor-producto.oferta {
+    font-size: 20px;
+  }
+
+  .contenedor-producto.oferta h4 {}
+
+  .contenedor-producto.oferta .precio-anterior {}
+
+  .contenedor-producto.oferta .descuento {
+    font-size: 13px;
+  }
+
+  .contenedor-producto.oferta .precio-descuento {
+    font-size: 20px;
+  }
+}

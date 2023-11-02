@@ -1,0 +1,249 @@
+@media (min-width: 1025px) {
+  .ul-header-responsive {
+    display: none;
+  }
+
+  .contenedor-listaDesplegable-header {
+    display: none;
+  }
+
+  .buscador-mobile{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ul-header {
+    display: none;
+  }
+
+  .ul-header-responsive {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 0.23;
+  }
+
+  .contenedor-buscador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    max-width: 40%;
+  }
+
+  .contenedor-padre-iconos-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.5;
+  }
+
+  .contenedor-padre-iconos-header div i,
+  .contenedor-padre-iconos-header a i {
+    font-size: 20px;
+  }
+
+  .contenedor-padre-iconos-header div p,
+  .contenedor-padre-iconos-header a p {
+    font-size: 14px;
+  }
+
+  /* Lista Desplegable */
+  .contenedor-listaDesplegable-header {
+    background-color: rgb(235, 235, 235);
+    border: 1px solid #ddd;
+    position: absolute;
+    transition: transform 0.3s ease;
+    transform: scaleY(0);
+    transform-origin: top;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .contenedor-listaDesplegable-header.active {
+    transform: scaleY(1);
+  }
+
+  .contenedor-listaDesplegable-header ul,
+  .contenedor-listas-header-responsive {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 100%;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+  }
+
+  .contenedor-listaDesplegable-header ul li {
+    transition: transform 0.3s;
+  }
+
+  .contenedor-listaDesplegable-header ul li:active {
+    transform: scale(0.95);
+  }
+
+  .contenedor-listaDesplegable-header ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+
+  .contenedor-listaDesplegable-header ul li:nth-last-child(1) a {
+    color: #FF5733;
+    font-weight: bold;
+  }
+
+  .buscador-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 60px;
+    padding: 10px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .contenedor-padre-buscador {
+    width: 100%;
+    height: auto;
+    gap: 10px;
+    z-index: 1;
+  }
+
+  .logo-header {
+    width: 40px;
+    margin-left: 10px;
+  }
+
+  .buscador-mobile {
+    display: flex;
+    padding: 5px;
+  }
+
+  .contenedor-buscador {
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+    order: 1;
+  }
+
+  .contenedor-listaDesplegable-header {
+    height: 45px;
+  }
+
+  .contenedor-padre-iconos-header {
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+  }
+
+}
+
+@media screen and (max-width: 440px) {
+  .boton-menu {
+    padding: 5px;
+  }
+
+  .bar {
+    width: 23px;
+    height: 2px;
+  }
+
+  .boton-menu.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-90deg);
+  }
+
+  .contenedor-buscador input {
+    font-size: 12px;
+  }
+
+  .contenedor-buscador i {
+    font-size: 18px;
+    top: 48%;
+    right: 20px;
+  }
+
+  .contenedor-padre-iconos-header div i {
+    font-size: 18px;
+  }
+
+  .contenedor-padre-iconos-header a i {
+    font-size: 18px;
+  }
+
+  .contenedor-padre-iconos-header div p {
+    font-size: 13px;
+  }
+
+  .contenedor-padre-iconos-header a p {
+    font-size: 13px;
+  }
+
+  .contenedor-numero-carrito {
+    padding: 4px 6px;
+    font-size: 10px;
+  }
+
+  .contenedor-listaDesplegable-header ul li a {
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 380px){
+  .contenedor-buscador input {
+    font-size: 11px;
+  }
+
+  .contenedor-padre-iconos-header div i {
+    font-size: 17px;
+  }
+
+  .contenedor-padre-iconos-header a i {
+    font-size: 17px;
+  }
+
+  .contenedor-padre-iconos-header div p {
+    font-size: 12px;
+  }
+
+  .contenedor-padre-iconos-header a p {
+    font-size: 12px;
+  }
+
+  .contenedor-padre-buscador a{
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-header {
+    width: 35px;
+    align-self: center;
+  }
+
+  .contenedor-numero-carrito {
+    font-size: 9px;
+    padding: 3px 5px;
+    right: -6px;
+    top: -7px;
+  }
+}

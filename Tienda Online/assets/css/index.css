@@ -1,0 +1,37 @@
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./login.css);
+@import url(./responsive/header-responsive.css);
+@import url(./responsive/footer-responsive.css);
+@import url(https://unicons.iconscout.com/release/v4.0.8/css/line.css);
+
+@font-face {
+  font-family: Montserrat;
+  src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype-variations');
+  font-weight: 1 999;
+  font-style: normal;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.ancla {
+  padding: 100px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .ancla {
+    padding: 25px 0px 0px 0px;
+  }
+}

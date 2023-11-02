@@ -1,0 +1,109 @@
+.contenedor-padre-iconos-header {
+  gap: 25px;
+}
+
+#contenedor-icono-miCuenta {
+  user-select: none;
+  gap: 0px;
+}
+
+#contenedor-icono-miCuenta:hover {
+  color: #333;
+}
+
+.barra-desplegable {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  justify-content: center;
+  left: -5%;
+  padding: 10px 20px;
+  position: absolute;
+  text-align: left;
+  top: 130%;
+  visibility: hidden;
+  width: 200px;
+  z-index: 2;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.barra-desplegable.active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#contenedor-icono-miCuenta .barra-desplegable {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#contenedor-icono-miCuenta .barra-desplegable.active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.contenedor-icono-miCuenta {
+  position: relative;
+}
+
+.fa-solid.fa-user {
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.barra-desplegable p {
+  margin: auto;
+  font-size: 16px;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+  width: 100%;
+  text-align: left;
+}
+
+.barra-desplegable p:hover {
+  color: #1e87f0;
+}
+
+.barra-desplegable p i {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.barra-desplegable p a {
+  margin-top: 10px;
+  width: 100%;
+  text-align: left;
+  display: block;
+}
+
+.barra-desplegable p a:hover {
+  color: #FF0000;
+  font-weight: bold;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.barra-desplegable {
+  animation: slideIn 0.3s ease-in-out;
+}

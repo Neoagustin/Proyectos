@@ -1,0 +1,58 @@
+@media screen and (max-width: 1024px) {
+  footer {
+    padding: 20px 0;
+  }
+
+  footer h2 {
+    font-size: 32px;
+  }
+
+  .redes-sociales {
+    margin-top: 17px;
+  }
+
+  .redes-sociales img {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    padding: 10px 0;
+  }
+
+  footer h2 {
+    font-size: 27px;
+  }
+
+  .redes-sociales {
+    margin-top: -15px;
+  }
+
+  .redes-sociales img {
+    width: 37px;
+    height: 37px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  footer {
+    padding: 5px 0;
+  }
+
+  footer h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+
+  .redes-sociales {
+    margin-top: -15px;
+    height: max-content;
+  }
+
+  .redes-sociales img {
+    width: 30px;
+    height: 30px;
+  }
+}
