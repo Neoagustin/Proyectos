@@ -1,4 +1,5 @@
 # Proyecto: Elegancia Casual
+![Home - Elegancia Casual](https://github.com/Anconita/Proyectos/assets/99112245/2b90fbce-0b9f-4542-90da-65a7c1e834bd)
 
 ## Descripción
 
