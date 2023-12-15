@@ -20,7 +20,7 @@ El **Club Deportivo Palo** es un proyecto dedicado al fútbol, enfocado en promo
 
 3. **Historia del Club:** Descubre la rica historia del club, desde sus inicios hasta los logros actuales.
 
-4. **Contacto:** ¿Quieres unirte al club o tienes alguna pregunta? ¡Contáctanos!
+4. **[¡Visita nuestra página ahora!](https://deportivopaalo.000webhostapp.com/)**
 
 ## Contribuciones
 
