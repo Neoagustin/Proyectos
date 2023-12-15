@@ -8,13 +8,17 @@
 
 ## Capturas de Pantalla
 
+### Captura de Pantalla - Página de Inicio (HOME)
+
 ![Home - Elegancia Casual](https://github.com/Anconita/Proyectos/assets/99112245/2b90fbce-0b9f-4542-90da-65a7c1e834bd)
 
-*Captura de pantalla: Página de inicio de Elegancia Casual.*
+*Página de inicio de Elegancia Casual.*
+
+### Captura de Pantalla - Detalle de Producto (PRODUCTO)
 
 ![Producto - Elegancia Casual](https://github.com/Anconita/Proyectos/assets/99112245/bea41ce7-5936-4009-a644-a0ca78d7b2e5)
 
-*Captura de pantalla: Vista detallada de un producto en Elegancia Casual.*
+*Vista detallada de un producto en Elegancia Casual.*
 
 ## Características Destacadas
 
