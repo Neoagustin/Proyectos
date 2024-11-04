@@ -1,0 +1,149 @@
+.courseClass-main-container {
+  background-color: #f8f9fa;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.courseClass-main-container img {
+  width: 14px;
+  height: 14px;
+}
+
+.class-list {
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.class-list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.class-list li {
+  margin-bottom: 1px;
+  width: 100%;
+}
+
+.class-button {
+  border: none;
+  background-color: #f0f0f0;
+  color: #425253;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  font-size: 15px;
+  padding: 15px 15px;
+  width: 100%;
+  text-align: left;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.class-button:hover {
+  background-color: #f7e5ca;
+  transform: translateY(-1px);
+}
+
+.selected-class-button {
+  border: none;
+  background-color: #f7e5ca;
+  color: #425253;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  font-size: 15px;
+  padding: 15px 15px;
+  width: 100%;
+  text-align: left;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.class-list h2 {
+  padding: 6px 0px;
+  margin: 10px 10px;
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+
+.courseClass-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 75px auto auto auto;
+}
+
+.courseClass-content h1{
+  padding: 0px 15px;
+  text-align: center;
+}
+
+.courseClass-video-container {
+  align-items: center;
+  display: flex;
+  max-height: 428px;
+  margin-top: 20px;
+  max-width: 760px;
+  padding: 0px 15px;
+}
+
+.courseClass-video-container video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.buttons-class-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons-class-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 1em;
+}
+
+.previous-class-button,
+.next-class-button {
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#play-icon {
+  color: #ff6130;
+}
+
+.next-class-button {
+  background-color: #ff5722;
+}
+
+.previous-class-button {
+  background-color: #2196f3;
+}
+
+.next-class-button:hover {
+  background-color: #bb360d;
+}
+
+.previous-class-button:hover {
+  background-color: #0c3d6e;
+}

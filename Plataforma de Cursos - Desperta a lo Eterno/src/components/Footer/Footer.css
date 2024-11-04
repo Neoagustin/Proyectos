@@ -1,0 +1,71 @@
+footer {
+  background-color: black;
+  box-shadow: 0px -20px 50px rgba(0, 0, 0, 0.955);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 25px 50px;
+  max-width: 100%;
+}
+
+.main-footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  max-width: 1140px;
+}
+
+footer h3 {
+  font-size: 1.3em;
+  font-family: MuliBold;
+  margin-bottom: 15px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  color: #6b6b6b;
+}
+
+footer a:hover {
+  color: rgb(209, 209, 209);
+}
+
+.networks-footer-container ul {
+  display: flex;
+  gap: 1em;
+}
+
+.networks-footer-container a img {
+  width: 25px;
+  height: auto;
+  transition: transform .3s;
+}
+
+.networks-footer-container a img:hover {
+  transform: scale(1.2);
+}
+
+.training-footer-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.casa-de-oracion {
+  font-size: 16px;
+  color: #888888;
+  width: 100%;
+  text-align: center;
+}
+
+/*?COPYRIGHT*/
+.copyright {
+  color: #7a7a7a;
+  margin-top: 5em;
+  text-align: center;
+}

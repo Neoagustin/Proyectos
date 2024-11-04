@@ -1,0 +1,98 @@
+@media screen and (max-width: 1199px) {
+  .courseClass-main-container {
+    margin-top: 80px;
+  }
+
+  .class-button:hover {
+    background-color: #f0f0f0;
+  }
+
+  .courseClass-main-container {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .class-list {
+    order: 2;
+    margin-top: 5em;
+    width: 100%;
+    overflow-y: visible;
+  }
+
+  .class-list ul {
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .courseClass-main-container {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .class-list {
+    order: 2;
+    margin-top: 5em;
+    width: 100%;
+    overflow-y: visible;
+  }
+
+  .class-list ul {
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .courseClass-main-container {
+    margin-top: 60px;
+  }
+
+  .courseClass-content{
+    margin: 50px 0px 0px;
+  }
+
+  .courseClass-content h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .buttons-class-container {
+    gap: .7em;
+    width: 100%;
+    padding: 0px 15px;
+  }
+
+  .previous-class-button,
+  .next-class-button {
+    padding: 12px 30px;
+    font-size: 14px;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .courseClass-content h1 {
+    font-size: 24px;
+  }
+
+  .buttons-class-container {
+    margin-top: 1.5em;
+  }
+
+  .previous-class-button,
+  .next-class-button {
+    padding: 9px 0px;
+    width: 50%;
+  }
+
+  .class-list{
+    margin-top: 2.5em;
+  }
+
+  .class-list h2{
+    font-size: 21px;
+  }
+}

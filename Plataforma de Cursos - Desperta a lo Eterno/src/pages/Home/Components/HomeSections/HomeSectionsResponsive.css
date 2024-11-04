@@ -1,0 +1,600 @@
+@media screen and (max-width: 1199px) {
+  .home-sections-container {
+    gap: 5em;
+    padding-bottom: 15em;
+  }
+
+  /*  .floating-button {
+    background-color: #ff8c00;
+    border-radius: 500px;
+    bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 119, 1, 0.939);
+    display: flex;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'MuliBold';
+    font-size: 1.3em;
+    padding: 50px 20px;
+    position: fixed;
+    letter-spacing: 3px;
+    right: 20px;
+    transition: all .3s;
+    z-index: 1000;
+  }
+
+  .floating-button:hover {
+    background-color: #ff9d00;
+  }
+  
+  .floating-button a {
+    align-items: center;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  */
+
+  .home-sections-container h2 {
+    font-family: MuliBold;
+    font-size: 2.5em;
+    padding: 15px 0px;
+  }
+
+  .section-home {
+    padding: 30px;
+    max-width: 930px;
+  }
+
+  /*? HISTORIA */
+  .history-section {
+    max-width: 100%;
+  }
+
+  #history-main-container {
+    max-width: 930px;
+  }
+
+  .history-text-container {
+    max-width: 450px;
+  }
+
+  .main-section-container {
+    max-width: 930px;
+  }
+
+  .history-text-container p {
+    font-size: 15px;
+  }
+
+  #history-title {
+    font-size: 22px;
+  }
+
+  .section-video-container {
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    width: 400px;
+    overflow: hidden;
+  }
+
+  .section-video-container video {
+    height: max-content;
+    max-width: 100%;
+    margin-top: 1.5em;
+  }
+
+  /*? Leyenda */
+  #leyend {
+    font-size: 17px;
+    margin-bottom: 1em;
+  }
+
+  #verse {
+    font-size: 19px;
+  }
+
+  /*? MISION */
+  .mission-text-container {
+    max-width: 400px;
+  }
+
+  .mission-text-container ul {
+    font-size: 15px;
+  }
+
+  /*? VISION */
+  .section-vision {
+    gap: 15em;
+  }
+
+  .vision-text-container {
+    max-width: 400px;
+    margin-right: 2em;
+  }
+
+  .vision-text-container p {
+    font-size: 1.2em;
+  }
+
+  /*? VALORES */
+  .values-text-container ul {
+    font-size: 15px;
+    max-width: 500px;
+    margin-right: 3em;
+  }
+
+  /*? TESTIMONIOS */
+  .testimony-text-container video {
+    width: 100%;
+  }
+
+  /*? INVITACIONES */
+  .invitations-Container {
+    gap: 1em;
+    padding: 30px 0px;
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .invitations-Container p {
+    font-size: 1.3rem;
+  }
+
+  .invitations-Container a {
+    padding: 10px 24px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .section-home {
+    background-color: rgba(0, 0, 0, 0.749);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    max-width: 690px;
+  }
+
+  .main-section-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*? HISTORIA */
+  .history-section {
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.852);
+  }
+
+  #history-main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+
+  .history-text-container {
+    max-width: 100%;
+    margin-bottom: 5em;
+  }
+
+  .history-text-container p {
+    font-size: 20px;
+  }
+
+  .section-video-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 3em;
+  }
+
+  #history-title {
+    font-size: 27px;
+  }
+
+  .section-video-container video {
+    max-width: 100%;
+  }
+
+  /*? Leyenda */
+  #leyend {
+    font-size: 19px;
+    margin-bottom: 1em;
+  }
+
+  #verse {
+    font-size: 21px;
+  }
+
+  /*? MISION */
+  .mission-text-container {
+    max-width: 100%;
+    order: 1;
+  }
+
+  .mission-text-container ul {
+    max-width: 100%;
+    font-size: 20px;
+    margin-bottom: 2em;
+  }
+
+  .section-video-container {
+    margin: auto;
+    order: 2;
+  }
+
+  /*? VISION */
+  .vision-text-container {
+    max-width: 100%;
+    margin-bottom: 3em;
+  }
+
+  .vision-text-container p {
+    font-family: MuliLight;
+    font-size: 22px;
+  }
+
+  /*? VALORES */
+  .values-text-container ul {
+    max-width: 100%;
+    font-family: 'MuliLight', sans-serif;
+    font-size: 18px;
+    margin-bottom: 3em;
+  }
+
+  .values-img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+  }
+
+
+  /*? TESTIMONIOS */
+  .testimony-text-container a {
+    background-color: #c53218;
+    border-radius: 0px;
+    color: white;
+    text-decoration: none;
+    width: max-content;
+    margin: auto;
+    margin-top: 1em;
+    padding: 10px;
+  }
+
+  .testimony-text-container a:hover {
+    color: white;
+  }
+
+  /*? INVITACIONES */
+  .invitations-Container {
+    background-color: rgba(0, 0, 0, 0.823);
+    gap: 1em;
+    padding: 30px 0px;
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .invitations-Container p {
+    font-size: 1.5rem;
+  }
+
+  .invitations-Container a {
+    padding: 12px 24px;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .home-sections-container {
+    padding-bottom: 10em;
+  }
+
+  /*.floating-button {
+    box-shadow: 0px 0px 10px rgba(255, 120, 1, 0.911);
+    font-size: 1.2em;
+    padding: 40px 16px;
+    letter-spacing: 2px;
+  }
+
+  .floating-button:hover {
+    background-color: #ff9d00;
+  }
+  */
+
+  .home-sections-container h2 {
+    font-family: MuliBold;
+    font-size: 2.3em;
+  }
+
+  .section-home {
+    max-width: 100%;
+    border-radius: 0px;
+  }
+
+  /*? HISTORIA */
+  .history-text-container p {
+    font-size: 17px;
+  }
+
+  .history-section {
+    max-width: 100%;
+  }
+
+  #history-title {
+    font-size: 25px;
+  }
+
+  .section-video-container video {
+    border: none;
+    border-radius: 0px;
+  }
+
+  #history-main-container {
+    max-width: 100%;
+  }
+
+  /*? Leyenda */
+  #leyend {
+    font-size: 18px;
+    margin-bottom: 1em;
+  }
+
+  #verse {
+    font-size: 20px;
+  }
+
+  /*? MISION */
+  .mission-text-container ul {
+    font-size: 17px;
+  }
+
+  /*? VISION */
+  .vision-text-container p {
+    font-size: 18px;
+  }
+
+  .vision-img-container {
+    max-width: 90%;
+    height: auto;
+    width: 100%;
+  }
+
+  .vision-img-container img {
+    border-radius: 0px;
+  }
+
+  /*? VALORES */
+  .values-text-container ul {
+    font-size: 17px;
+  }
+
+  /*? INVITACIONES */
+  .invitations-Container {
+    border-radius: 0px;
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .invitations-Container p {
+    font-size: 1.2em;
+  }
+
+  .invitations-Container a {
+    padding: 10px 20px;
+    font-size: 1.3rem;
+  }
+
+  .values-img-container {
+    height: max-content;
+  }
+
+  .testimony-text-container h3 {
+    color: rgba(255, 255, 255, 0.793);
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: .3em;
+  }
+
+  #img-values {
+    display: none;
+  }
+
+  #img-values-mobile {
+    display: flex;
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+  .home-sections-container {
+    gap: 3em;
+    padding-bottom: 7em;
+  }
+
+  .home-sections-container h2 {
+    font-family: MuliBold;
+    font-size: 2em;
+  }
+
+  /*.floating-button {
+    box-shadow: 0px 0px 10px rgba(255, 120, 1, 0.911);
+    bottom: 35%;
+    font-size: 14px;
+    padding: 25px 7px;
+    letter-spacing: 2px;
+    right: 15px;
+
+  }
+
+  .floating-button:hover {
+    background-color: #ff9d00;
+  }
+  */
+
+  .home-sections-container h2 {
+    font-family: MuliBold;
+    font-size: 2.3em;
+  }
+
+  /*? HISTORIA */
+  .history-section {
+    padding: 15px 15px;
+  }
+
+  #history-main-container {
+    height: max-content;
+  }
+
+  .history-text-container {
+    margin: auto;
+    height: max-content;
+  }
+
+  .history-text-container p {
+    font-size: 14px;
+    margin-bottom: 0em;
+  }
+
+  #history-title {
+    font-size: 19px;
+    width: 100%;
+  }
+
+  .toggleHistory-btn {
+    margin: 1.3em 0 2em;
+    font-size: 14px;
+  }
+
+  .section-video-container {
+    padding: 0px;
+    width: 100%;
+  }
+
+  .section-video-container a {
+    border-radius: 0px;
+    font-size: 14px;
+  }
+
+  /*? Leyenda */
+  #section-legend {
+    padding: 15px;
+  }
+
+  #leyend {
+    font-size: 14px;
+    margin-bottom: 1em;
+  }
+
+  #verse {
+    font-size: 16px;
+  }
+
+  /*? MISION */
+  .section-mission {
+    padding: 15px 15px;
+  }
+
+  .mission-text-container ul {
+    font-size: 14px;
+  }
+
+  /*? VISION */
+  .section-vision {
+    padding: 15px;
+  }
+
+  .vision-text-container {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .vision-text-container p {
+    font-size: 14px;
+  }
+
+  /*? VALORES */
+  .section-values {
+    padding: 15px;
+  }
+
+  .values-text-container ul {
+    font-size: 14px;
+    margin-bottom: 2em;
+  }
+
+  .values-img-container {
+    height: max-content;
+  }
+
+  #img-values {
+    display: none;
+  }
+
+  #img-values-mobile {
+    display: flex;
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  /*? TESTIMONIOS */
+  .testimony-text-container a {
+    font-size: 14px;
+  }
+
+  #testimony-title {
+    font-size: 20px;
+  }
+
+  /*? INVITACIONES */
+  .invitations-Container {
+    padding: 15px;
+    border-radius: 0px;
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .invitations-Container p {
+    font-size: 16px;
+  }
+
+  .invitations-Container a {
+    padding: 5px 15px;
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 390px) {
+
+  /*?HISTORIA*/
+  #history-title {
+    font-size: 20px;
+  }
+
+  .section-video-container video {
+    margin-top: .7em;
+  }
+
+  /*? TESTIMONIOS */
+  #testimony-title {
+    font-size: 16px;
+  }
+
+  /*? INVITACIONES */
+  .invitations-Container p {
+    text-align: center;
+  }
+}

@@ -1,0 +1,204 @@
+.offerings-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 50px;
+}
+
+.offerings-content {
+  max-width: 800px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.292);
+}
+
+.offerings-section {
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.offerings-text {
+  padding: 20px;
+  text-align: center;
+}
+
+.offerings-text h1 {
+  font-size: 2.5rem;
+  font-family: MuliRegular;
+  margin-bottom: 20px;
+}
+
+.offerings-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 10px 0px 5px;
+}
+
+.offerings-text .image-container {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.offerings-image-MP {
+  max-width: 150px;
+  margin-top: 15px;
+}
+
+#CBU {
+  font-family: MuliBold;
+  margin-top: 0px;
+}
+
+.offerings-text .offerings-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.verse-offering p {
+  font-family: MuliBold;
+  font-style: italic;
+  line-height: 150%;
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.offerings-qrPaypal-img {
+  max-width: 150px;
+  margin-top: 15px;
+
+}
+
+
+@media screen and (max-width: 1199px) {
+  .offerings-main-container {
+    padding: 150px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .offerings-main-container {
+    padding: 150px;
+    text-align: left;
+  }
+
+  .offerings-text {
+    padding: 20px;
+    text-align: left;
+  }
+
+  .verse-offering p {
+    width: 100%;
+  }
+
+  .offerings-content {
+    min-width: 100%;
+    border: 0px;
+    box-shadow: 0px 0px 0px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .offerings-main-container {
+    padding: 75px 0px;
+    text-align: left;
+  }
+
+  .offerings-text {
+    padding: 20px;
+    text-align: left;
+  }
+
+  .offerings-content {
+    min-width: 100%;
+  }
+
+  .offerings-text {
+    width: 100%;
+  }
+
+  .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+  }
+
+  .offerings-image-MP {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .offerings-main-container {
+    padding: 75px 0px;
+  }
+
+  .offerings-main-container p {
+    font-size: 14px;
+  }
+
+  .offerings-content {
+    min-width: 100%;
+    border: 0px;
+    box-shadow: 0px 0px 0px;
+  }
+
+  .offerings-section {
+    padding: 20px 10px;
+    font-size: 14px;
+  }
+
+  .offerings-section a {
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+  .offerings-section span {
+    font-family: 'MuliBold', sans-serif;
+  }
+
+  #wu-section p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .offerings-text {
+    padding: 15px;
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .offerings-text h1 {
+    font-size: 2.3rem;
+  }
+
+  .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+  }
+
+  .offerings-image-MP {
+    align-self: center;
+  }
+
+  #CBU {
+    font-size: 15px;
+  }
+}

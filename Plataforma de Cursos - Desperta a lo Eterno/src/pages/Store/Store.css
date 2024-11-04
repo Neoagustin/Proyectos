@@ -1,0 +1,88 @@
+.store-desktop {
+  width: 100%;
+  height: 100%;
+  background-color: #e3e3e3;
+  color: #373737;
+}
+
+.store-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: auto;
+  padding: 25px;
+}
+
+.store-container h1 {
+  font-family: 'MuliBold', sans-serif;
+  font-size: 35px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.store-subtitle-container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.store-subtitle-container p {
+  text-align: center;
+  font-size: 17px;
+}
+
+.store-subtitle-container a {
+  background-color: #326cff;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: 'MuliBold', sans-serif;
+  margin: 15px auto 0px;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  width: max-content;  
+}
+
+.store-subtitle-container a:hover {
+  background-color: #2652b0;
+}
+
+.store-cards-section {
+  margin-top: 50px;
+  padding: 0px 10px;
+}
+
+.store-cards-section h3 {
+  font-family: 'MuliBold', sans-serif;
+  font-size: 26px;
+  padding: 0px 0px 10px;
+}
+
+.store-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 0px 100px;
+}
+
+.store-cards-container a {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.825);
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: all .3s ease-in-out;
+  width: calc(33.33% - (2 * 10px));
+}
+
+.store-cards-container a:hover {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.711);
+  transform: scale(1.03);
+}
+
+.store-cards-container a img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}

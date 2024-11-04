@@ -1,0 +1,91 @@
+@media screen and (max-width: 991px) {
+  .courseDetail-description-section p {
+    font-size: 16px;
+  }
+
+  .courseDetail-directory h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 575px) {
+
+  .title-class span:nth-child(2) {
+    width: 250px;
+  }
+
+  .courseDetail-directory h1 {
+    font-size: 30px;
+  }
+
+  .courseDetail-directory h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .courseDetail-container {
+    max-width: 100%;
+    padding: 15px 15px 1px;
+  }
+
+  .courseDetail-description-section {
+    margin-top: 20px;
+    padding: 0px;
+    background-color: #f9f9f9;
+    border-radius: 0px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .courseDetail-classes-container {
+    margin-top: 20px;
+  }
+
+  .courseDetail-classes-title h3 {
+    font-size: 22px;
+  }
+
+  .courseDetail-description-section p {
+    line-height: 1.5;
+  }
+
+  .class-container {
+    align-items: center;
+  }
+
+  .class-container p {
+    font-size: 14px;
+  }
+
+  .start-title {
+    font-size: 12px;
+    max-height: 24px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .title-class span:nth-child(2) {
+    max-width: 150px;
+    width: auto;
+
+  }
+
+  .courseDetail-directory h1 {
+    font-size: 27px;
+    left: 0px;
+  }
+
+  .courseDetail-directory h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .courseDetail-classes-title h3 {
+    font-size: 20px;
+  }
+
+  .courseDetail-description-section p {
+    font-size: 14px;
+  }
+}

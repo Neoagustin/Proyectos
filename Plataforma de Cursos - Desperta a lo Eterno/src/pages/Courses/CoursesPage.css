@@ -1,0 +1,108 @@
+.courses-directory-container {
+  background-color: white;
+  padding: 50px 0px;
+  min-height: 800px;
+}
+
+.courses-main-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0px 50px;
+}
+
+.search-course-container {
+  margin-left: auto;
+}
+
+.search-course-container input {
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-course-container input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.courses-main-container h2 {
+  margin: 20px 0 10px;
+  font-size: 30px;
+  color: #333;
+}
+
+/*? CARD COURSE */
+.course-link {
+  text-decoration: none;
+}
+
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 20px), 1fr));
+  gap: 20px;
+}
+
+.course-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  height: 400px; /* Establecemos una altura mínima */
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  display: flex; /* Añadimos display flex para alinear verticalmente el contenido */
+  flex-direction: column; /* Añadimos flex-direction column para alinear verticalmente el contenido */
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.courseCard-text-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.course-card h3 {
+  color: #333;
+  font-family: MuliBold;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.course-card p {
+  margin: 0;
+  font-size: 15px;
+  color: #666666;
+}
+
+#date-card-course{
+  margin-bottom: 70px;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+}
+
+.author-container img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}

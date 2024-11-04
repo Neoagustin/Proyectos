@@ -1,0 +1,76 @@
+@media screen and (max-width: 1199px) {
+  .courses-directory-container {
+    margin-top: 80px;
+  }
+
+  .courses-main-container {
+    max-width: 992px;
+    padding: 0px 15px;
+  }
+
+  /*? CARD COURSE */
+  .course-card {
+    height: 350px;
+  }
+
+  .course-card-img {
+    height: 180px;
+  }
+
+  .course-card h3 {
+    font-size: 22px;
+  }
+
+  #date-card-course {
+    margin-bottom: 55px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .courses-main-container {
+    max-width: 768px;
+  }
+
+  /*? CARD COURSE */
+  .course-list {
+    grid-template-columns: repeat(auto-fill, minmax(calc(50% - 20px), 1fr));
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  /*? CARD COURSE */
+  .course-card {
+    height: auto;
+  }
+
+  .course-card-img {
+    height: auto;
+  }
+
+  .course-list {
+    grid-template-columns: repeat(auto-fill, minmax(calc(100%), 1fr));
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .courses-directory-container {
+    margin-top: 60px;
+    padding: 40px 0px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .course-card h3 {
+    font-size: 20px;
+    padding-bottom: 7px;
+  }
+
+  .course-card p {
+    font-size: 14px;
+  }
+
+  #date-card-course {
+    margin-bottom: 50px;
+  }
+}

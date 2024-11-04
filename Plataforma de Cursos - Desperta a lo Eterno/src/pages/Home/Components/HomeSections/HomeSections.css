@@ -1,0 +1,329 @@
+.home-sections-container {
+  background-image: url('../../../../assets/img/homeBackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 7em;
+  padding-bottom: 300px;
+  z-index: 3;
+}
+
+
+.home-sections-container h2 {
+  font-family: MuliBold;
+  font-size: 48px;
+  padding: 20px 0px;
+}
+
+.section-home {
+  background-color: rgba(0, 0, 0, 0.861);
+  border-radius: 50px;
+  padding: 40px 40px;
+  max-width: 1140px;
+  margin: auto;
+  box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.744);
+  overflow: hidden;
+  width: 100%;
+}
+
+/*? Historia */
+.history-section {
+  background-color: rgba(0, 0, 0, 0.978);
+  border-radius: 0px;
+  max-width: 100%;
+}
+
+#history-main-container {
+  max-width: 1300px;
+}
+
+.main-section-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1140px;
+}
+
+.history-text-container {
+  max-width: 550px;
+}
+
+.history-text-container p {
+  font-family: MuliLight;
+  font-size: 17px;
+}
+
+#history-title {
+  color: rgb(255, 200, 0);
+  font-size: 24px;
+  font-family: MuliBold;
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.seeMore-btn-container {
+  text-align: center;
+
+}
+
+#seeMore-btn-values {
+  margin-top: 0px;
+}
+
+.toggleHistory-btn {
+  background-color: #f44814;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-family: 'MuliExtraBold', sans-serif;
+  font-size: 1rem;
+  padding: 6px 15px;
+  margin-top: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.toggleHistory-btn:hover {
+  background-color: #cf3607;
+}
+
+
+.section-video-container {
+  display: flex;
+  flex-direction: column;
+  height: 360px;
+  width: 550px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.section-video-container video {
+  border-bottom: 2px solid #ff8400;
+  border-radius: 10px;
+  height: 100%;
+  transition: all .3s;
+  max-width: 90%;
+}
+
+.section-video-container video:hover {
+  border-bottom: 2px solid #d97000;
+}
+
+/*? Leyenda */
+#section-legend {
+  text-shadow: 4px 4px 6px black;
+  font-family: MuliBold;
+  font-style: italic;
+}
+
+#leyend {
+  font-size: 19px;
+  margin-bottom: 1.5em;
+}
+
+#verse {
+  color: #fff700;
+  font-size: 21px;
+}
+
+/*? Mision */
+.mission-text-container {
+  max-width: 550px;
+}
+
+.mission-text-container ul {
+  max-width: 550px;
+  font-family: 'MuliLight', sans-serif;
+  font-size: 17px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.mission-text-container ul li {
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.mission-text-container ul li::before {
+  content: "\2022";
+  color: #ff8400;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*? VISION */
+.vision-text-container {
+  max-width: 550px;
+}
+
+.vision-text-container p {
+  font-family: MuliLight;
+  font-size: 22px;
+  margin-right: 1em;
+}
+
+.vision-img-container {
+  max-width: 550px;
+  height: auto;
+  width: 600px;
+}
+
+.vision-img-container img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 25px;
+}
+
+/*? VALORES */
+.values-text-container ul {
+  max-width: 550px;
+  font-family: 'MuliLight', sans-serif;
+  font-size: 17px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.values-text-container ul li {
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.values-text-container ul li::before {
+  content: "\2022";
+  color: #ff8400;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.values-img-container {
+  height: 500px;
+  width: auto;
+}
+
+.values-img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+/*? TESTIMONIOS */
+.testimony-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimony-text-container h2 {
+  margin-right: auto;
+}
+
+.testimony-text-container h3 {
+  color: rgba(255, 255, 255, 0.793);
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: .3em;
+}
+
+.testimony-text-container video {
+  width: 80%;
+}
+
+.testimony-text-container a {
+  background-color: #c53218;
+  border-radius: 0px;
+  color: white;
+  text-decoration: none;
+  width: max-content;
+  margin: auto;
+  margin-top: 1em;
+  padding: 10px;
+  transition: all .3s;
+}
+
+.testimony-text-container a:hover {
+  background-color: #ff5b0a;
+  color: white;
+  transform: scale(1.05);
+}
+
+/*? INVITACIONES */
+.invitations-Container {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.934);
+  border-radius: 50px;
+  box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.744);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin: auto;
+  padding: 50px 0px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.invitations-Container p {
+  font-family: MuliBold;
+  font-size: 1.6rem;
+}
+
+.invitations-Container a {
+  background-color: #FF5722;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  color: white;
+  cursor: pointer;
+  font-family: 'MuliExtraBold', sans-serif;
+  font-size: 1.2rem;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.invitations-Container a:hover {
+  background-color: #f44814;
+  transform: scale(1.1);
+}
+
+#btn-ofrendar {
+  background-color: #ffbf00;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  color: white;
+  cursor: pointer;
+  font-family: 'MuliExtraBold', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+#btn-ofrendar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.5);
+}
+
+.mobile {
+  display: none;
+}

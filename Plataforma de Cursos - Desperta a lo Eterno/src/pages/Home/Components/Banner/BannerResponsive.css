@@ -1,0 +1,51 @@
+@media screen and (max-width: 1440px) {
+  .banner-container {
+    height: 708px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .banner-container {
+    margin-top: 80px;
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+  .banner-container {
+    height: 648px;
+  }
+
+  .banner-text h1 {
+    font-size: 4.5em;
+  }
+
+  .banner-text p {
+    font-size: 1.9em;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .banner-container {
+    height: 338px;
+    margin-top: 60px;
+  }
+
+  .banner-text h1 {
+    font-size: 12vw;
+  }
+
+  .banner-text p {
+    font-size: 6vw;
+  }
+
+  .banner-btn {
+    top: 30%;
+    left: 50%;
+  }
+
+  .banner-btn a {
+    font-size: 3.5vw;
+    padding: 3vw 9vw;
+  }
+}
