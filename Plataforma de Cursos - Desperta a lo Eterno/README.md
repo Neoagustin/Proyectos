@@ -21,7 +21,7 @@
 
 1. **Navegación de Cursos:** Descubre una variedad de cursos diseñados para todos los niveles.
 2. **Contenido Multimedia:** Accede a videos y materiales de estudio de alta calidad.
-3. **[¡Visita nuestra plataforma ahora!](https://desperta-a-lo-eterno.netlify.app/)**
+3. **<a href="https://desperta-a-lo-eterno.netlify.app/" target="_blank">¡Visita nuestra plataforma ahora!</a>
 
 ## 🤝 Contribuciones
 
