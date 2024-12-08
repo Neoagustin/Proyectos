@@ -1,8 +1,11 @@
 # 🌍 Rompiendo Barreras (Plataforma de Aprendizaje de Idiomas)
 
+---
+
 ![Inicio](https://github.com/user-attachments/assets/b91e2284-3326-489d-87e2-6842f2c16391)
 ![Panel de Administración](https://github.com/user-attachments/assets/b93cec1b-6135-4a1c-9d94-b86ba1219188)
-![Perfil de Usuario](https://github.com/user-attachments/assets/d5a56e7a-af70-4e2f-a10c-34e4c8d423a1)
+![Perfil de Usuario](https://github.com/user-attachments/assets/e4a2165d-6ef0-44b1-8afb-b64f8b5aef62)
+
 
 **Rompiendo Barreras** es una aplicación diseñada para transformar la experiencia de aprendizaje de idiomas. La plataforma ofrece una experiencia adaptada según el rol de usuario, fomentando la educación personalizada y colaborativa.  
 
