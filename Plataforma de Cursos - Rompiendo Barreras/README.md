@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 Rompiendo Barreras (Plataforma de Aprendizaje de Idiomas)
 
-## Getting Started
+![Inicio](https://github.com/user-attachments/assets/b91e2284-3326-489d-87e2-6842f2c16391)
+![Panel de Administración](https://github.com/user-attachments/assets/b93cec1b-6135-4a1c-9d94-b86ba1219188)
+![Perfil de Usuario](https://github.com/user-attachments/assets/d5a56e7a-af70-4e2f-a10c-34e4c8d423a1)
 
-First, run the development server:
+**Rompiendo Barreras** es una aplicación diseñada para transformar la experiencia de aprendizaje de idiomas. La plataforma ofrece una experiencia adaptada según el rol de usuario, fomentando la educación personalizada y colaborativa.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Características Destacadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Gestión por Roles:**
+  - 👩‍💼 **Administrador:** Panel para gestionar usuarios, lenguajes, cursos, clases, códigos de descuento y estadísticas clave.
+  - 👨‍🏫 **Profesores:** Herramientas para crear, organizar y enseñar cursos.
+  - 👩‍🎓 **Estudiantes:** Acceso adaptado según el plan contratado, con una experiencia personalizada.
+  
+- **Funcionalidades Avanzadas:**
+  - ⭐ **Sistema de Calificación:** Los estudiantes pueden evaluar cursos para mantener altos estándares de calidad.
+  - 🤖 **Tutor IA:** Soporte virtual para responder preguntas y guiar en tiempo real.
+  - 📊 **Plataforma Escalable:** Arquitectura diseñada para crecer y adaptarse a nuevas necesidades.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tecnologías Utilizadas
 
-## Learn More
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)  
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)  
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)  
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
-To learn more about Next.js, take a look at the following resources:
+## 🌐 Explora Nuestra Plataforma
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Inicio:** Aprende idiomas con una experiencia intuitiva y personalizada.  
+2. **Roles Dinámicos:** Los usuarios experimentan diferentes herramientas y accesos según su rol.  
+3. **Tutor IA:** Recibe asistencia en tiempo real para mejorar el aprendizaje.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Contribuciones
 
-## Deploy on Vercel
+Las contribuciones son bienvenidas. Si tienes ideas o encuentras algún error, no dudes en abrir un *issue* o realizar un *pull request*. ¡Tu aporte es valioso!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📜 Licencia
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este proyecto está bajo la Licencia [MIT](LICENSE). Consulta el archivo LICENSE para más información.
+
+---
+
+¡Gracias por visitar la **Rompiendo Barreras**! 😊 Tu apoyo y feedback nos ayudan a mejorar cada día.
